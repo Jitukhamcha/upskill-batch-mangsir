@@ -208,7 +208,7 @@ Write a program to create three list (ANIMALS, animals, Animals) from following 
 animals_names = ["Elephant", "tiger", "GirafFe", "KangarOO", "Dolphin", 
            "panda", "ZEBRA", "Lion", "penguin", "Cheetah"]
 #### Hint:
-ANIMALS = this should have all item in capital casing
+ANIMALS = this should have all item in capital casing'
 animals = this should have all item in small casing
 Animals = this should have all item in title casing
 
