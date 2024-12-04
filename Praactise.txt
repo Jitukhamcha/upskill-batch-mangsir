@@ -1,0 +1,234 @@
+# Python Programming Assignment: List
+### Task 1: Get the length of each item in list
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+
+Output format:
+
+"Elephant has length 8"
+
+"Tiger has length 5"
+
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+for i in animals:
+    print(f" {i} has length", len(i))
+### Task 2: Separate list based on item length
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+
+Create two list a1 and a2, where a1 should store animals name with length <= 5 and a2 with length > 5
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+a1=[]
+a2=[]
+for z in animals:
+    if len(z)<=5:
+        a1.append(z)
+    else:
+       a2.append(z)
+    
+print(a1)
+print(a2)
+
+
+### Task 3: Find common item between two list
+Write a program that print the common item between the given two list. Also handle for case sensitive case.
+
+animals_1 = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+           
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+animals_1 = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+           
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+all_Animal=[]
+for i in animals_1:    
+    for j in animals_2:
+        if i in j:
+            all_Animal.append(j)
+print(all_Animal)
+
+
+### Task 4: Item remvoal
+Write a program that removes the even number from the list 
+
+list_1 = [4,2,52,81,816,66,238,386,23,33,11,78789]
+list_1 = [4,2,52,81,816,66,238,386,23,33,11,78789]
+k=[]
+for z in list_1:
+  if z%2==0:
+     k.append(z)
+print(k)
+  
+  
+   
+    
+
+
+### Task 5: Swap values given the indexes 
+Write a program to swap values in a given list
+
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+
+Tasks:
+
+a. Swap first and last item in animals_2
+
+b. Swap second and second last item
+
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+#swaping the ilements usinig the index, or variable a,b=b,a
+animals_2[0],animals_2[-1]=animals_2[-1],animals_2[0]
+print(animals_2)
+
+#second
+animals_2[1],animals_2[-2]=animals_2[-2],animals_2[1]
+print(animals_2)
+### Task 6: Casing of item 
+Write a program to create three list (ANIMALS, animals, Animals) from following list with the property as given in output list name 
+
+animals_names = ["Elephant", "tiger", "GirafFe", "KangarOO", "Dolphin", 
+           "panda", "ZEBRA", "Lion", "penguin", "Cheetah"]
+
+#### Hint:
+ANIMALS = this should have all item in capital casing
+
+animals = this should have all item in small casing
+
+Animals = this should have all item in title casing
+
+animals_names = ["Elephant", "tiger", "GirafFe", "KangarOO", "Dolphin", "panda", "ZEBRA", "Lion", "penguin", "Cheetah"]
+ANIMALS=[]
+animals=[]
+Animals=[]
+for m in  animals_names:
+    if m==m.upper():
+        ANIMALS.append(m)
+    elif m==m.lower():
+        animals.append(m)
+    elif m==m.title():
+        Animals.append(m)
+    else:
+        print()
+print(ANIMALS)
+print(animals)
+print(Animals)
+# Python Programming Assignment: List
+### Task 1: Get the length of each item in list
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+
+Output format:
+
+"Elephant has length 8"
+
+"Tiger has length 5"
+
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+for i in animals:
+    print(f" {i} has length", len(i))
+### Task 2: Separate list based on item length
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+
+Create two list a1 and a2, where a1 should store animals name with length <= 5 and a2 with length > 5
+animals = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+a1=[]
+a2=[]
+for z in animals:
+    if len(z)<=5:
+        a1.append(z)
+    else:
+       a2.append(z)
+    
+print(a1)
+print(a2)
+
+
+### Task 3: Find common item between two list
+Write a program that print the common item between the given two list. Also handle for case sensitive case.
+
+animals_1 = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+           
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+animals_1 = ["Elephant", "Tiger", "Giraffe", "Kangaroo", "Dolphin", 
+           "Panda", "Zebra", "Lion", "Penguin", "Cheetah"]
+           
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+all_Animal=[]
+for i in animals_1:    
+    for j in animals_2:
+        if i in j:
+            all_Animal.append(j)
+print(all_Animal)
+
+
+### Task 4: Item remvoal
+Write a program that removes the even number from the list 
+
+list_1 = [4,2,52,81,816,66,238,386,23,33,11,78789]
+list_1 = [4,2,52,81,816,66,238,386,23,33,11,78789]
+k=[]
+for z in list_1:
+  if z%2==0:
+     k.append(z)
+print(k)
+  
+  
+   
+    
+
+
+### Task 5: Swap values given the indexes 
+Write a program to swap values in a given list
+
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+
+Tasks:
+
+a. Swap first and last item in animals_2
+
+b. Swap second and second last item
+
+animals_2 = ["Jackal", "tiger",  "LION", "Penguin", "Monkey", "Cheetah"]
+#swaping the ilements usinig the index, or variable a,b=b,a
+animals_2[0],animals_2[-1]=animals_2[-1],animals_2[0]
+print(animals_2)
+
+#second
+animals_2[1],animals_2[-2]=animals_2[-2],animals_2[1]
+print(animals_2)
+### Task 6: Casing of item 
+Write a program to create three list (ANIMALS, animals, Animals) from following list with the property as given in output list name 
+
+animals_names = ["Elephant", "tiger", "GirafFe", "KangarOO", "Dolphin", 
+           "panda", "ZEBRA", "Lion", "penguin", "Cheetah"]
+
+#### Hint:
+ANIMALS = this should have all item in capital casing
+
+animals = this should have all item in small casing
+
+Animals = this should have all item in title casing
+
+animals_names = ["Elephant", "tiger", "GirafFe", "KangarOO", "Dolphin", "panda", "ZEBRA", "Lion", "penguin", "Cheetah"]
+ANIMALS=[]
+animals=[]
+Animals=[]
+for m in  animals_names:
+    if m==m.upper():
+        ANIMALS.append(m)
+    elif m==m.lower():
+        animals.append(m)
+    elif m==m.title():
+        Animals.append(m)
+    else:
+        print()
+print(ANIMALS)
+print(animals)
+print(Animals)
