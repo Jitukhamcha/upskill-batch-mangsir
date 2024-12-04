@@ -205,15 +205,11 @@ animals_2[1],animals_2[-2]=animals_2[-2],animals_2[1]
 print(animals_2)
 ### Task 6: Casing of item 
 Write a program to create three list (ANIMALS, animals, Animals) from following list with the property as given in output list name 
-
 animals_names = ["Elephant", "tiger", "GirafFe", "KangarOO", "Dolphin", 
            "panda", "ZEBRA", "Lion", "penguin", "Cheetah"]
-
 #### Hint:
 ANIMALS = this should have all item in capital casing
-
 animals = this should have all item in small casing
-
 Animals = this should have all item in title casing
 
 animals_names = ["Elephant", "tiger", "GirafFe", "KangarOO", "Dolphin", "panda", "ZEBRA", "Lion", "penguin", "Cheetah"]
