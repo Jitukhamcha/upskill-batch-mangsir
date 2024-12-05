@@ -1,6 +1,6 @@
 # Find odd and even number between the range and prime number
-a=int(input("enter 1st number"))
-b=int(input("enter 2nd number"))
+a=int(input("enter first number"))
+b=int(input("enter second number"))
 c=[]
 d=[]
 for x in range(a,b+1):
