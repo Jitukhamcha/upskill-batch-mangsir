@@ -1,0 +1,21 @@
+Name,Age,City,Score,Passed,Department
+Alice,25.0,New York,85.6,True,HR
+Bob,30.0,Los Angeles,90.4,True,IT
+Charlie,35.0,Chicago,,False,Finance
+David,40.0,Houston,88.9,True,Marketing
+Eva,22.0,Phoenix,92.3,True,Sales
+Frank,27.0,Philadelphia,81.0,False,IT
+Grace,29.0,San Antonio,89.7,True,HR
+Helen,,San Diego,84.5,True,
+Ivy,24.0,Dallas,79.8,False,Finance
+Jack,26.0,San Jose,88.2,True,Marketing
+Karen,34.0,Austin,,True,Sales
+Leo,31.0,Seattle,77.5,False,HR
+Mona,,Denver,91.3,True,IT
+Nancy,28.0,Boston,83.7,True,Finance
+Oscar,36.0,Miami,88.9,False,Marketing
+Paul,32.0,,82.5,False,Sales
+Quincy,23.0,Atlanta,86.4,True,IT
+Rachel,21.0,Detroit,,True,HR
+Sam,,Nashville,87.1,,Finance
+Tina,29.0,Orlando,80.9,True,Marketing
